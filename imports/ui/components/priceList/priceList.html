@@ -1,0 +1,9 @@
+<template name="priceList">
+  <h2>即時魚貨售價回報</h2>
+  {{> tabular table=TabularTables.AvgPrices class="table table-striped table-bordered table-condensed"}}
+  <ul>
+  {{#each selector}}
+    <li>{{_id}}</li>
+  {{/each}}
+  </ul>
+</template>

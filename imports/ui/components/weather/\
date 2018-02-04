@@ -1,0 +1,55 @@
+<template name="weather">
+<!--<template name="weather">-->
+  <div style="position:absolute;height: 100%;width:100%;margin: 0 auto;background-image:url('/111jpg');background-repeat:no-repeat;background-size:cover">
+    <div id="container1" style="position:relative;margin-top:2%;margin-left: 23%;width:auto;height:auto;">
+  	  <div id="box" style="width:670px;height:200px;background-image:url('/img/rain_thunderstorms.png');box-shadow:inset 0px 0px 29px #9ef8f1;border-radius:27px;border:1px solid #a4e3d9;"></div>
+  	  <div id="box1" style="position:absolute;top:0px;width:670px;height:200px;background:#04ffff;box-shadow:0px 5px 5px #000000;border-radius:27px;border:1px solid #a4e3d9;opacity:0.27;"></div>
+  	  <div id="sun" style="position:absolute;top:57px;left:47px;width:85px;height:85px;background:radial-gradient(white,#ffff99);box-shadow:0px 0px 27px #ffff99;border-radius:100%;"></div>
+  	  <div id="deg" style="position:absolute;top:0px;left:227px;width:200px;height:202px;">
+        <p class="degree" style="position:absolute;top:-6px;left:1px;font-family:arial;color:#ffffff;font-size:72pt;text-shadow:0px 2px 4px #000000;ext-align:center;border-left:1px solid #ffffff">8.5˚</p>
+        <p class="high_low" style="position:absolute;top:125px;left:-70px;font-family:arial;color:#ffffff;font-size:29pt;text-shadow:0px 2px 4px #000000;">L/H : 6˚/10˚</p> 
+      </div>
+  	  <div id="day" style="position:absolute;top:0px;left:427px;width:300px;height:202px;border-left:1px solid #ffffff;">
+  	     <p class="place" style="position:absolute;top:20px;left:27px;font-family:arial;color:#ffffff;font-size:43.97pt;text-shadow:0px 2px 4px #000000;">Taiwan</p>
+  	     <p class="days" style="position:absolute;top:100px;left:27px;font-family:arial;color:#333333;font-size:24pt;">Sunday</p>
+  	     <p class="date" style="position:absolute;top:135px;left:27px;font-family:arial;color:#333333;font-size:24pt;">4th Feb, 2018</p>
+  	  </div>
+    </div>
+   
+    <hr size="5">
+
+    <div id=container2 style="position:relative;height: 27%;margin: 0 0;">
+    	<div class="row" style="position:relative;margin-top:6%;margin-left: 23%;">
+        <div class="col-sm-4" style="position:absolute;width:500px;height:300px;">
+          <img style="width:100%;height:100%;" src="http://www.imocwx.com/cwm/03/00/cwm_ljp.gif" class="single-img" />
+        </div>
+        <table border="1" style="position:absolute;top:0px;left:505px;">
+          <tr>
+            <div class="col-sm-1">
+              <td><span>風向</span></td>
+              <td><span>東北風</span></td>
+            </div>
+          </tr>
+          <tr>
+            <div class="col-sm-1">
+              <td><span>風浪</span></td>
+              <td><span>大浪</span></td>
+            </div>
+          </tr>
+          <tr>
+            <div class="col-sm-1">
+              <td><span>浪高</span></td>
+              <td><span>3~4公尺</span></td>
+            </div>
+          </tr>
+          <tr>
+            <div class="col-sm-2">
+              <td><span>風力</span></td>
+              <td><span>6至7陣風9級</span></td>
+            </div>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</template>

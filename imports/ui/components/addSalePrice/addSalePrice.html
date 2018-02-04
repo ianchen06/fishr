@@ -1,0 +1,35 @@
+<template name="addSalePrice">
+  <button class="btn btn-success js-show-sales-form"> 新增銷售 </button>
+  <br><br>
+  {{> tabular table=TabularTables.Prices selector=selector class="table table-striped table-bordered table-condensed"}}
+
+  <div class="modal fade" id="sales_add_form">
+    <form class="sale-price-add">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+                <h3>新增紀錄</h3>
+              </div>
+              <div class="modal-title">
+              </div>
+              <div class="modal-body">
+                    <span>魚種：</span>
+                    <input type="text" name="itemName" placeholder="如: 吳郭魚" required>
+                    <br><br>
+                    <span>每斤價格：</span>
+                    <input type="number" name="price" placeholder="每公斤價格(新台幣)" required>
+                    <br><br>
+                    <span>地點：</span>
+                    <input type="text" name="location" placeholder="如: 基隆公有魚市場" required>
+              </div>
+              <div class="modal-footer">
+                  <button class="btn btn-success"> 提交 </button>
+                  <button class="btn btn-warning" data-dismiss="modal"> 取消 </button>
+              </div>
+          </div>
+      </div>
+    </form>
+  </div>
+
+</template>
+
