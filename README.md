@@ -1,5 +1,9 @@
 # FISHR
 
+The App is LIVE here
+
+https://fishr.tk
+
 第五組 - FISHACKATHON 2018 TAIPEI - Challenge 7 - Crowd-Sourced Market Transparency
 
 ## Key Features
